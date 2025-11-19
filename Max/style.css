@@ -9,6 +9,7 @@
     height: 852px;
     margin: 0px;
     border: 1px solid black;
+    overflow-y: scroll;
 }
 
 body {
