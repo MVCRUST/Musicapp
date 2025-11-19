@@ -1,0 +1,56 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.phone {
+    width: 393px;
+    height: 852px;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: #364F6B;
+}
+
+.card {
+    width:100%;
+}
+
+.profile {
+    width:100px;
+}
+
+#dark_blue {
+    background-color:#22374E;
+    color:#F5F5F5;
+}
+
+#pink_banner1,
+#pink_banner2 {
+    background-color: #FC5185;
+    color:#F5F5F5;
+}
+
+#white_banner {
+    background-color: #F5F5F5;
+    color:#FC5185;
+}
+
+#showmore {
+    color: #F5F5F5;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+.playlistb {
+    width: 80px;
+    height: 80px;
+}
