@@ -1,0 +1,245 @@
+
+
+body {
+    width: 393px;
+    margin: 0 auto;
+    font-family: "Lexend";
+    background-color: #364F6B;
+    border: 1px solid black;
+}
+
+.bannerOdd, .bannerEven {
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+
+.bannerEven p, .bannerOdd p {
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    height: 25px;
+}
+
+.bannerOdd p, .bannerOdd {
+    background-color: #FC5185;
+    color: #F5F5F5;
+
+}
+
+.bannerEven p, .bannerEven{
+    background-color: #F5F5F5;
+    color: #FC5185;
+}
+
+.news{
+    background-color: #F5F5F5;
+    position: absolute;
+    left: 15px;
+    height: 90px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#events {
+    top: 130px;
+}
+
+#newStuff {
+    top: 240px; 
+}
+
+#newStuff p, #events p {
+    color: black;
+}
+
+.popular {
+    height: 260px;
+    position: relative;
+}
+
+.discography, .playlists {
+    height: 200px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    height: 50px;
+}
+
+.top {
+    background-color: #22374E;
+    width:100%;
+    height:350px;
+    position: relative;
+}
+
+h1 {
+    color: #3FC1C9;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.artist {
+    left: 20px;
+    top: 15px;
+    width: 250px;
+    height: 70px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: absolute;
+    left: 280px;
+    top: 15px;
+}
+
+#profile {
+    height: 100px;
+    aspect-ratio: 612/387;
+}
+
+.follow, .shuffle {
+    width: 110px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Lexend";
+}
+
+.follow {
+    background-color: #FC5185;
+    color: #F5F5F5;
+    border: 1px solid #FC5185;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+
+.shuffle {
+    background-color: #F5F5F5;
+    color: #FC5185;
+    border: 1px solid #F5F5F5;
+    position: absolute;
+    left: 160px;
+    top: 90px;
+}
+
+.grid {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: grid;
+    height:100px;
+    width: 340px;
+    grid-template-columns: repeat(3, 100px);
+    column-gap: 20px;
+}
+
+.grid2 {
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    display: grid;
+    height:30px;
+    width: 340px;
+    grid-template-columns: repeat(3, 100px);
+    column-gap: 20px;
+}
+
+.nametag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: #3FC1C9;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.album {
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+}
+
+.more {
+    background-color: #FC5185;
+    color: #F5F5F5;
+    border: 1px solid #FC5185;
+    position: absolute;
+    left: 310px;
+    top: 160px;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Lexend";
+    font-size: 10px;
+}
+
+.table {
+    display: grid;
+    grid-template: repeat(3,60px) / 60px 150px 150px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    row-gap: 10px;
+}
+
+.cover {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#iconSmall {
+    height: 60px;
+    width: 60px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3FC1C9;
+}
+
+#numbers {
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#morePop {
+    top: 225px;
+}
+
+#plays h2 {
+    font-size: 30px;
+}
